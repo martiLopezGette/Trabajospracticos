@@ -8,3 +8,13 @@ alert(suma);
 alert(resta);
 alert(multiplicacion);
 alert(division);
+
+let titulo = ducument.querySelector(H1)
+let boton = ducument.querySelector(button)
+
+boton.onclick = function () {
+titulo.textcotent = "buen dia tercero"
+titulo.style.color = yellow
+titulo.style.backgroundColor = purple
+titulo.style.fontFamily = arial
+}
