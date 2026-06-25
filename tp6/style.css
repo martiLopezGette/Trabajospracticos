@@ -1,0 +1,32 @@
+body{
+    Background-color: rgb(236, 74, 74);
+font-feature-settings: color #f16e6e;
+font-family: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh;
+align-items: center;
+padding: 20px;
+border: none;
+border: radius;
+}
+
+button{
+background-color:rgb(71, 253, 15);
+color: rgb(167, 255, 167);
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+transition: backgroun-color 0.3s ease;
+}
+
+button :hover{
+    background-color:rgb(250, 8, 157);
+    transform scale: (1.05);
+}
+
+
+
+
+
