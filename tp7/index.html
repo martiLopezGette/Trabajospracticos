@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ejercicio 1: Mayor de edad</h2>
+    <p id="parrafo1"></p>
+    <button id="boton1">Verificar edad</button>
+
+    <hr>
+    <h2>Ejercicio 2: Mensaje de bienvenida</h2>
+    <p id="parrafo2"></p>
+    <button id="boton2">Verificar usuario</button>
+
+    <script src="app.js"></script>
+
+    <h2>Ejercicio 3: Mensaje de bienvenida v2</h2>
+
+<p id="parrafo3"></p>
+
+<button id="boton3">Mostrar mensaje</button>
+<p id="mensaje"></p>
+
+<script Ejercicio2>
+  let numero = -5;
+  if (numero > 0) {
+    document.getElementById("mensaje").textContent = "El número es positivo";
+  } else if (numero < 0) {
+    document.getElementById("mensaje").textContent = "El número es negativo";
+  } else {
+    document.getElementById("mensaje").textContent = "El número es cero";
+  }
+  let edad = 25;
+
+  if (edad >= 6 && edad <= 11) {
+    document.getElementById("mensaje").textContent = "Niño";
+  } else if (edad >= 12 && edad <= 18) {
+    document.getElementById("mensaje").textContent = "Adolescente";
+  } else if (edad >= 19 && edad <= 26) {
+    document.getElementById("mensaje").textContent = "Joven";
+  } else if (edad >= 27 && edad <= 59) {
+    document.getElementById("mensaje").textContent = "Adulto";
+  } else if (edad >= 60) {
+    document.getElementById("mensaje").textContent = "Anciano";
+  } else {
+    document.getElementById("mensaje").textContent = "Menor de 6 años";
+  }
+</script>
+</body>
+</html>
