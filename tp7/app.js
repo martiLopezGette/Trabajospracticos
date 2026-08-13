@@ -28,11 +28,11 @@ boton1 = document.getElementById("boton1");
          {
             parrafo2.innerText = "Bienvenido usuario";
         }
-        let edad = 20; // Cambiar este valor para probar
-        let parrafo1 = document.getElementById("parrafo1");
-        let boton1= document.getElementById("boton1");
-        let edad = 15;
-        let edad= 18;
+        edad = 20; // Cambiar este valor para probar
+        parrafo1 = document.getElementById("parrafo1");
+         boton1= document.getElementById("boton1");
+         edad = 15;
+        edad= 18;
 
         let nombreUsuario = "Nahuel";
 
