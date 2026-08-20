@@ -1,50 +1,108 @@
-// Ejercicio 1
+let pedad1 = document.querySelector("#pedad1")
+let btnedad1 = document.querySelector("#btnedad1")
+let edad1 = 18
 
- edad = 20; // Cambiar este valor para probar
-{
- parrafo1 = document.getElementById("parrafo1");
-boton1 = document.getElementById("boton1");
-}
- boton1.addEventListener("click", Fuction ();
 
-    (edad >= 18)
-     
-     parrafo1.innerText = "Eres mayor de edad";
-
+btnedad1.onclick = function(){
+    if(edad1 >= 18)
     {
-        parrafo1.innerText = "Eres menor de edad";
-    }
-      {
-      nombreUsuario = "Nahuel"; // Cambiar este valor para probar
+        pedad1.textContent = "Eres mayor de edad"
 
-     parrafo2 = document.getElementById("parrafo2");
-     boton2 = document.getElementById("boton2");
+    }else{
+        pedad1.textContent = "Eres menor de edad"
+    }
+}
+
+
+
+
+let nombreUsuario = "Marcos"
+let btnnombre = document.querySelector("#btnnombre")
+let pnombre = document.querySelector("#pnombre")
+
+
+btnnombre.onclick = function(){
+    if(nombreUsuario == "Nahuel" || nombreUsuario == "Marcos")
+    {
+        pnombre.textContent = "Bienvenido " + nombreUsuario + " ¿cómo estás?"
+    }   
+    else{
+        pnombre.textContent = "Bienvenido " + nombreUsuario
+    }
+}
+
+
+
+
+let numero1 = 45
+let presultado = document.querySelector("#presultado")
+let btnresultado = document.querySelector("#btnresultado")
+
+
+btnresultado.onclick = function(){
+if(numero1 > 0){
+    presultado.textContent = "El número es positivo"
+} 
+else if(numero1 < 0){
+    presultado.textContent = "El número es negativo"
+}
+else if(numero1 == 0){
+    presultado.textContent = "El número es cero"
+}
+}
+
+
+let edad2 = 46
+let pedad2 = document.querySelector("#pedad2")
+let btnedad2 = document.querySelector("#btnedad2")
+  
+btnedad2.onclick = function(){
+
+    if((edad2 >= 6) && (edad2 <= 11)){
+        pedad2.textContent = "Niño (6 a 11 años)"
+    }
+    else if((edad2 >= 12) && (edad2 <= 18)){
+        pedad2.textContent = "Adolescente (12 a 18 años)"
+    }
+    else if((edad2 >= 19) && (edad2 <= 26)){
+        pedad2.textContent = "Joven (19 a 26 años)"
+    }
+    else if((edad2 >= 27) && (edad2 <= 59)){
+        pedad2.textContent = "Adulto (27 a 59 años)"
+    } 
+    else if(edad2 > 60){
+        pedad2.textContent = "Anciano (60 años o más)"
+    }}
     
-    boton2.addEventListener("click", function () }
     
-        (nombreUsuario === "Nahuel") {
-            parrafo2.innerText = "Bienvenido Nahuel, ¿cómo estás?";
-        } 
-         {
-            parrafo2.innerText = "Bienvenido usuario";
+    let dia = "lunes"
+    let pdia = document.querySelector("#pdia")
+    let btndia = document.querySelector("#btndia")
+    
+    
+    btndia.onclick = function(){
+        if(dia == "lunes" || dia == "martes" || dia == "miercoles" || dia == "jueves" || dia == "viernes"){
+            pdia.textContent = "Es un día laborable"
         }
-        edad = 20; // Cambiar este valor para probar
-        parrafo1 = document.getElementById("parrafo1");
-         boton1= document.getElementById("boton1");
-         edad = 15;
-        edad= 18;
-
-        let nombreUsuario = "Nahuel";
-
-let parrafo3 = document.getElementById("parrafo3");
-let boton3 = document.getElementById("boton3");
-
-boton3.addEventListener("click", function () {
-
-    if (nombreUsuario === "Nahuel" || nombreUsuario === "Marcos") {
-        parrafo3.innerText = "Bienvenido " + nombreUsuario + " ¿cómo estás?";
-    } else {
-        parrafo3.innerText = "Bienvenido " + nombreUsuario;
-        nombreUsuario === "Marcos"
+        else if(dia == "sabado" || dia == "domingo"){
+            pdia.textContent = "Es fin de semana"
+        }
     }
-
+    
+    
+    
+    
+    let btncontrasenia = document.querySelector("#btncontrasenia")
+    let pcontrasenia = document.querySelector("#pcontrasenia")
+    let contrasenia = "sehh"
+    
+    
+    btncontrasenia.onclick = function(){
+        if (contrasenia == "sehh"){
+            pcontrasenia.textContent = "Acceso concedido"
+        }
+        else{
+            pcontrasenia.textContent = "Acceso denegado"
+        }
+    }
+    
